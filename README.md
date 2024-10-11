@@ -16,4 +16,6 @@ To facilitate the linking of each directory and file in this repository to our w
 
 * The following files show the python scripts used for hyperparameter optimization of the best ensemble models for code smell severity assessment: "Severity Assessment_CB_anova-30_Bm_mean.ipynb", "Severity Assessment_XGB_anova-30_Bm_mean.ipynb"; "Severity Assessment_CB_chi-norm-20_Bm.ipynb", "Severity Assessment_RF_chi-norm-20_Bm.ipynb", "Severity Assessment_XGB_chi-norm-30_Bb_accuracy.ipynb", "Severity Assessment_CB_anova-25_Bb.ipynb", "CB_chi-original_R_accuracy.ipynb", "RF_chi-original_R_accuracy.ipynb", " XGB_chi-norm-25_Rb_accuracy.ipynb", and " RF_chi-norm-25_Rb_accuracy.ipynb".
 
+3) The "TransferLearning" and "Without Transfer Learning" directories contain Python scripts for code smell detection and severity assessment with and without transfer learning. These scripts suit Java-to-C# transfer learning and C#-to-Java transfer learning. In addition, the root of each directory contains an Excel spreadsheet with all the results obtained: "Results with transfer learning.xlsx" and "Results without transfer learning.xlsx." These files show the results of the ten best-selected ensemble models, with their respective selected features, the standardized or non-standardized datasets, the oversampled or non-oversampled training dataset, and the optimized hyperparameters.
+
 
