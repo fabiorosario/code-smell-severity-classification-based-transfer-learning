@@ -18,4 +18,6 @@ To facilitate the linking of each directory and file in this repository to our w
 
 3) The "TransferLearning" and "Without Transfer Learning" directories contain Python scripts for code smell detection and severity assessment with and without transfer learning. These scripts suit Java-to-C# transfer learning and C#-to-Java transfer learning. In addition, the root of each directory contains an Excel spreadsheet with all the results obtained: "Results with transfer learning.xlsx" and "Results without transfer learning.xlsx." These files show the results of the ten best-selected ensemble models, with their respective selected features, the standardized or non-standardized datasets, the oversampled or non-oversampled training dataset, and the optimized hyperparameters.
 
+4) Finally, the "The Best Ensemble Methods Based-Transfer Learning" directory contains the final Python scripts for transfer learning in both Java and C# for code smell detection and severity assessment for four code smells: God Class (Large Class), Data Class, Feature Envy, and Long Method. The results of these models are detailed in Subsection B of Section V of our paper: ''An Approach for Code Smell Detection and Severity Assessment based on Transfer Learning".
+
 
